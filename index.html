@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="m-auto w-75 text-center">
+      <h1 class="my-5">Quote of the Day</h1>
+
+      <h4 class="fs-1 my-3">
+        Press the button below to recieve a random quote!
+      </h4>
+
+      <button
+        class="fs-5 w-25 py-4 border border-1 border-black mb-5 myOwnBtn"
+        id="qouteButton"
+        onclick="showDiv(); generateQoute();"
+      >
+        New Quote
+      </button>
+
+      <div class="mt-5 quoteContent" id="qouteDiv">
+        <div class="imageProfile">
+          <img alt="" id="profileImage" class="rounded-circle mt-5" />
+        </div>
+        <h4 id="QouteLine" class="fs-2"></h4>
+        <h4 id="AuthorLine" class="fs-2 my-4"></h4>
+      </div>
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>

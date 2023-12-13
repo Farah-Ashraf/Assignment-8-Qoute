@@ -1,0 +1,40 @@
+body {
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.myOwnBtn {
+  background-color: rgb(129, 60, 14);
+  color: white;
+  border-radius: 20px;
+}
+
+.myOwnBtn:hover {
+  background-color: rgb(236, 236, 182);
+
+  color: black;
+}
+
+.quoteContent {
+  display: none;
+  border-radius: 20px;
+  border: solid 3px rgb(129, 60, 14);
+}
+
+.imageProfile {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transform: translateY(-60%);
+}
+
+.imageProfile img {
+  box-shadow: 15px 15px 100px rgb(78, 34, 34);
+}
